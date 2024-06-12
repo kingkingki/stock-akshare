@@ -13,10 +13,10 @@
 # nicorn_company_df.to_csv(output_file, index=False, encoding="utf-8")
 
 
-# new stock
+# new 停复牌 stock
 import akshare as ak
 
-stock_tfp_em_df = ak.stock_tfp_em(date="20240521")
+stock_tfp_em_df = ak.stock_tfp_em(date="20240612")
 print(stock_tfp_em_df)
 output_file = 'stock_tfp_em.csv'
 stock_tfp_em_df.to_csv(output_file, index=False, encoding="utf-8")
